@@ -1,36 +1,48 @@
 **PCA Implementation on Breast Cancer Dataset**
+
+
 This project demonstrates how to apply Principal Component Analysis (PCA) to the Breast Cancer Wisconsin (Diagnostic) dataset using Python. PCA is used here to reduce the dataset's dimensionality while retaining most of the variance, making the data easier to visualize and analyze.
 
-Table of Contents
+**Table of Contents:-**
+
 Overview of PCA
+
 Dataset Information
+
 Project Setup
+
 Code Overview
+
 Requirements
+
 Usage
 
-**Overview of PCA**
+**Overview of PCA:-**
+
 Principal Component Analysis (PCA) is a widely used technique in machine learning and statistics for dimensionality reduction. It works by transforming data into a new coordinate system where the greatest variances are represented along the first coordinates, known as principal components. This transformation helps in:
 
 Reducing the number of dimensions while keeping most of the important information (variance) intact.
 Simplifying the dataset for visualization and analysis.
 PCA is often applied to datasets with a large number of features to make data visualization easier and to reduce computational costs in machine learning.
 
-**Dataset Information**
+**Dataset Information:-**
+
 We use the Breast Cancer Wisconsin (Diagnostic) dataset from the sklearn.datasets library. This dataset includes data about cell nuclei features computed from digitized images, used to classify cancerous tumors as malignant or benign.
 
 Number of Instances: 569
 Number of Attributes: 30 numeric features
 Classes: Malignant, Benign
 
-**Project Setup**
+**Project Setup:-**
+
 Clone this repository.
 Install the required dependencies using the following command:
 bash
 Copy code
 pip install -r requirements.txt
 
-**Code Overview**
+**Code Overview:-**
+
 The code performs the following steps:
 
 Load and Explore the Dataset: Uses the load_breast_cancer function from sklearn.datasets to load the dataset and display its structure.
